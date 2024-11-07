@@ -1,0 +1,168 @@
+/* .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 100px;
+    
+}
+.box2 {
+    
+    
+}
+.box__content1 {
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 9999px;
+    position: absolute;
+    top: 90px;
+}
+.box__content2 {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 176px
+}
+.box__content3 {
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 9999px;
+}
+.box__content4 {
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 9999px;
+}
+.orangered {
+    display: flex;
+    gap: 150px;
+    align-items: center; 
+    justify-content: center;
+}
+.box__content5 {
+    padding: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    bottom: 27px;
+    border-radius: 9999px;
+    position: absolute;
+    
+}
+.box__content6 {
+    padding: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    bottom: 20px;
+    left: 469px;
+    border-radius: 9999px;
+    position: absolute;
+    
+} 
+.radius {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.white1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    position: relative;
+}
+.box__content7 {
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    bottom: 20px;
+    left: 458px;
+    position: absolute;
+    bottom: 459px;
+}
+.white2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radius {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box__content8 {
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    bottom: 75px;
+    left: 750px;
+    position: absolute;
+}
+.box__content9 {
+    padding: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    bottom: 18px;
+    border-radius: 9999px;
+    left: 769px;
+    position: absolute;
+}
+.radius2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; */
+/* } */
+
+
+
+
+
+
+
+
+/* vilka */
+.qirrasi {
+    background-color: blue;
+    width: 20px;
+    height: 150px;
+    border-radius: 30px 30px 0px 0px  ;
+    &::after{content: "" ; width: 20px; height: 20px; background-color: white; z-index: 9999; bottom: -10px; right: 20px; position: absolute ; border-radius: 0 0 20px 20px; }
+}
+.vilka div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+.pasi {
+    height: 110px;
+    width: 140px;
+    background-color: blue;
+    border-radius: 0px 0px 9999px 9999px ;
+    position: relative;
+}
+.ruchka {
+    width: 30px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    top:  -5px;
+    border-radius: 0px 0px 15px 15px;
+    
+}
